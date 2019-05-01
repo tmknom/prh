@@ -7,7 +7,9 @@
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/tmknom/prh.svg)](https://microbadger.com/images/tmknom/prh)
 [![License](https://img.shields.io/github/license/tmknom/prh.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Dockerfile template.
+A proofreading helper.
+
+This is [prh](https://github.com/prh/prh) wrapper.
 
 ## Requirements
 
@@ -15,9 +17,16 @@ Dockerfile template.
 
 ## Usage
 
+### Proofread markdown
+
 ```sh
-curl -fsSL https://raw.githubusercontent.com/tmknom/prh/master/install | sh -s example
-cd example
+docker run --rm -v "$PWD:/work" tmknom/prh --rules prh.yml **/*.md
+```
+
+### Help
+
+```sh
+docker run --rm -v "$PWD:/work" tmknom/prh
 ```
 
 ## Makefile targets
