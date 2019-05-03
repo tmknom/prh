@@ -1,8 +1,8 @@
 # prh
 
 [![CircleCI](https://circleci.com/gh/tmknom/prh.svg?style=svg)](https://circleci.com/gh/tmknom/prh)
-[![Docker Build Status](https://img.shields.io/docker/build/tmknom/prh.svg)](https://hub.docker.com/r/tmknom/prh/builds/)
-[![Docker Automated build](https://img.shields.io/docker/automated/tmknom/prh.svg)](https://hub.docker.com/r/tmknom/prh/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/tmknom/prh.svg)](https://hub.docker.com/r/tmknom/prh/builds/)
+[![Docker Automated build](https://img.shields.io/docker/cloud/automated/tmknom/prh.svg)](https://hub.docker.com/r/tmknom/prh/)
 [![MicroBadger Size](https://img.shields.io/microbadger/image-size/tmknom/prh.svg)](https://microbadger.com/images/tmknom/prh)
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/tmknom/prh.svg)](https://microbadger.com/images/tmknom/prh)
 [![License](https://img.shields.io/github/license/tmknom/prh.svg)](https://opensource.org/licenses/Apache-2.0)
